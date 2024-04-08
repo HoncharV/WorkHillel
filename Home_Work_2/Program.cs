@@ -2,16 +2,16 @@
 {
     private static void Main(string[] args)
     {
-        System.Console.OutputEncoding=System.Text.Encoding.Unicode;
+        System.Console.OutputEncoding = System.Text.Encoding.Unicode;
 
         //а) Обчислення величини знижки 
         int price = 100;
         int discount = 12;
         int netPrice = (price - (discount * price / 100));
-        Console.WriteLine("Ціна без знижки"/t+ price);
-        Console.WriteLine("тільки сьгодні знижка"/t+discount );
+        Console.WriteLine($"Ціна без знижки = {price}") ;
+        Console.WriteLine($"тільки сьгодні знижка = {discount}");
         Console.WriteLine("ціна із знижкою");
-        Console.WriteLine(netPrice);
+        Console.WriteLine(netPrice );
 
         //б) Час в секундах
         byte hour = 9;
