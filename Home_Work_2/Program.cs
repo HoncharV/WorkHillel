@@ -8,8 +8,10 @@
         int price = 100;
         int discount = 12;
         int netPrice = (price - (discount * price / 100));
-        Console.WriteLine($"Ціна без знижки = {price}") ;
-        Console.WriteLine($"тільки сьгодні знижка = {discount}");
+        Console.WriteLine("Ціна без знижки");
+        Console.WriteLine(price);
+        Console.WriteLine($"тільки сьгодні знижка");
+        Console.WriteLine(discount);
         Console.WriteLine("ціна із знижкою");
         Console.WriteLine(netPrice );
 
