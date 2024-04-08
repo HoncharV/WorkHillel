@@ -5,8 +5,8 @@
         //а) Обчислення величини знижки 
         int price = 100;
         int discount = 12;
-        int netPrice = (price- (discount * price / 100));
-        Console.WriteLine("ціна із знижкою "+netPrice);
+        int netPrice = (price - (discount * price / 100));
+        Console.WriteLine($"ціна із знижкою " + { netPrice});
 
         //б) Час в секундах
         byte hour = 9;
