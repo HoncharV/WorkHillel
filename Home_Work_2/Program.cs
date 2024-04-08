@@ -2,9 +2,9 @@
 {
     private static void Main(string[] args)
     {
+        System.Console.OutputEncoding= System.Text.Encoding.Unicode;
 
         //а) Обчислення величини знижки 
-        Console.OutputEncoding = System.Text.Encoding.Unicode;
         int price = 100;
         int discount = 12;
         int netPrice = (price - (discount * price / 100));
