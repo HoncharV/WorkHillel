@@ -4,7 +4,7 @@
     {
 
         //а) Обчислення величини знижки 
-        Console.Output.Encoding = System.Text.Encoding.Unicode;
+        Console.OutputEncoding = System.Text.Encoding.Unicode;
         int price = 100;
         int discount = 12;
         int netPrice = (price - (discount * price / 100));
