@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        System.Console.OutputEncoding= System.Text.Encoding.Unicode;
+        System.Console.OutputEncoding=System.Text.Encoding.Unicode;
 
         //а) Обчислення величини знижки 
         int price = 100;
